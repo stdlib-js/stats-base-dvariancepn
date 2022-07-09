@@ -105,7 +105,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.dvariancepn;
+})();
 })();
 </script>
 ```
@@ -223,6 +225,7 @@ var v = dvariancepn.ndarray( N, 1, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dvariancepn@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -236,6 +239,7 @@ console.log( x );
 var v = dvariancepn( x.length, 1, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -348,7 +352,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [variance]: https://en.wikipedia.org/wiki/Variance
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
@@ -358,15 +362,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dnanvariancepn]: https://github.com/stdlib-js/stats-base-dnanvariancepn/tree/umd
+[@stdlib/stats/base/dnanvariancepn]: https://github.com/stdlib-js/stats-base-dnanvariancepn/tree/umd/tree/umd
 
-[@stdlib/stats/base/dstdevpn]: https://github.com/stdlib-js/stats-base-dstdevpn/tree/umd
+[@stdlib/stats/base/dstdevpn]: https://github.com/stdlib-js/stats-base-dstdevpn/tree/umd/tree/umd
 
-[@stdlib/stats/base/dvariance]: https://github.com/stdlib-js/stats-base-dvariance/tree/umd
+[@stdlib/stats/base/dvariance]: https://github.com/stdlib-js/stats-base-dvariance/tree/umd/tree/umd
 
-[@stdlib/stats/base/svariancepn]: https://github.com/stdlib-js/stats-base-svariancepn/tree/umd
+[@stdlib/stats/base/svariancepn]: https://github.com/stdlib-js/stats-base-svariancepn/tree/umd/tree/umd
 
-[@stdlib/stats/base/variancepn]: https://github.com/stdlib-js/stats-base-variancepn/tree/umd
+[@stdlib/stats/base/variancepn]: https://github.com/stdlib-js/stats-base-variancepn/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
