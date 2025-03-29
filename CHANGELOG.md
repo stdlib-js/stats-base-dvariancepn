@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`e61abc7`](https://github.com/stdlib-js/stdlib/commit/e61abc75775756383a20985c7166f85149ee0b68) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`4df836a`](https://github.com/stdlib-js/stdlib/commit/4df836acfee5e6f359fc5d15a31ee9f6ef4237f0) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`056fbe0`](https://github.com/stdlib-js/stdlib/commit/056fbe0e0a1644520845f637cf69fcfa1cea2fda) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`7feea68`](https://github.com/stdlib-js/stdlib/commit/7feea68e633b9044a8bb6c8b3741f5708395dd97) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvariancepn` [(#4688)](https://github.com/stdlib-js/stdlib/pull/4688) _(by Prashant Kumar Yadav, Athan Reines)_
